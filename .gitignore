@@ -1,6 +1,10 @@
 # OS file
 .DS_Store
 
+# competition data (will be downloaded by scripts)
+*.parquet
+kaggle_evaluation/
+*.csv
+
 # data
-dataset/
 *.zip

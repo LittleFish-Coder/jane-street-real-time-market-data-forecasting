@@ -13,5 +13,5 @@ cp script/kaggle.json ~/.kaggle/
 # download the dataset
 kaggle competitions download -c jane-street-real-time-market-data-forecasting
 
-# unzip the dataset (create the dataset folder if it does not exist)
-unzip jane-street-real-time-market-data-forecasting.zip -d dataset
+# unzip the dataset at the current location
+unzip jane-street-real-time-market-data-forecasting.zip
